@@ -20,6 +20,14 @@ public class Student {
         this.grades.add(grade);
     }
 
+    public double getGradeAverage() {
+        double result = 0;
+        for (int grade: grades) {
+            result += grade;
+        }
+        return result / this.grades.size();
+    }
+
     public void setGrades(ArrayList<Integer> grades) {
         this.grades = grades;
     }
