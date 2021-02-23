@@ -20,7 +20,7 @@ public class StudentTest {
         assertNotNull(john.getGrades());
 
         Student david = new Student(2L, "David");
-        assertNotEquals("Joe", david.getName());
+        assertNotEquals("Steve", david.getName());
     }
 
     @Test
